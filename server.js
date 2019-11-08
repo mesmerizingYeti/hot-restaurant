@@ -10,5 +10,5 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 
-// require('apiRoutes')
+require(path.join(__dirname, 'app', 'routes', 'apiRoutes.js'))
 // require('htmlRoutes')
