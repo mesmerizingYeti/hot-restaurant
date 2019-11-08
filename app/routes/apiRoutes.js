@@ -24,3 +24,4 @@ module.exports = function(app) {
 }
 
 // axios.post(`http://localhost:3000/${tables.length === 5 ? 'waiting' : 'tables'}`)
+//   .then(r => console.log(r))
