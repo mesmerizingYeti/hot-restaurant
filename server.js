@@ -11,4 +11,4 @@ app.use(express.urlencoded({ extended: true }))
 
 
 require('./app/routes/apiRoutes')(app)
-// require('htmlRoutes')
+require('./app/routes/routes')(app)
