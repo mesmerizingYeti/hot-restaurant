@@ -1,3 +1,6 @@
+// const axios = require('axios')
+
+
 document.getElementById('viewTables').addEventListener('click', () => {
   console.log('hello')
   window.location.href = './viewTables.html'
