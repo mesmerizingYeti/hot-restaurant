@@ -1,2 +1,7 @@
+const path = require('path')
 const express = require('express')
-const axios = axios()
+
+const app = express()
+
+app.listen(3000)
+
