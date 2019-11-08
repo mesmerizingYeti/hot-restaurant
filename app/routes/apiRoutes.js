@@ -12,7 +12,13 @@ module.exports = function(app) {
   })
 
   app.post('/tables', (req, res) => {
-    console.log(req.body)
+    tableArr.push(req.body)
+    console.log(tableArr)
+  })
+
+  app.post('/waiting', (req, res) => {
+    waitingArr.push(req.body)
+    console.log(waitingArr)
   })
 
 }
