@@ -1,19 +1,18 @@
-const axios = require('axios')
+// const axios = require('axios')
 
 axios.get('http://localhost:3000/tables')
-  .then(r => console.log(r))
+  .then(r => console.log(r.data))
+  .catch(e => console.log(e))
 
 // axios.post(`http://localhost:3000/${tables.length === 5 ? 'waiting' : 'tables'}`, )
 //   .then()
 
-document.getElementById('submit').addEventListener('click', () => {
-
-  document.getElementById('name') = ''
-  document.getElementById('phone') = ''
-  document.getElementById('email') = ''
-  document.getElementById('uniqueId') = ''
-
-})
+// document.getElementById('submit').addEventListener('click', () => {
+//   document.getElementById('name') = ''
+//   document.getElementById('phone') = ''
+//   document.getElementById('email') = ''
+//   document.getElementById('uniqueId') = ''
+// })
 
 document.getElementById('viewTables').addEventListener('click', () => {
   console.log('hello')
